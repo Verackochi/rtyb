@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 26px;
+    padding-bottom: 23px;
+    box-shadow: inset 0.2px -2px 9px 0 rgba(0, 0, 0, 0.16);
+      
+    
+    
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    
+    
+   
+}
+
+.logo {
+    max-width: 156px;
+    display: flex;
+
+}
+
+.icon {
+    display: block;
+    width: 49px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #1b3bde;
+    margin-right: 10px;
+
+  
+}
+
+.fa-plug {
+    color: white;
+    padding: 11px 15px;
+    font-size: 25px;
+}
+
+.logo-text {
+    justify-content: space-between;
+    display: block;
+    padding-top: 8px;
+    max-width: 96px;
+    font-size: 14.5px;
+    color: #1b3bde;
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+
+.logo-text span {
+    font-size: 20px;
+}
+
+.menu {
+    margin-left: 107px;
+    
+}
+
+.menu__list {
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+.menu__item {
+    margin-left: 41px ; 
+}
+
+.menu__link {
+    font-size: 13px;
+    color: #000; 
+    font-weight: normal;
+    font-family: 'Roboto';
+    line-height: 2.23;
+}
+
+.menu__link:hover {
+    width: 74px;
+  height: 28px;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #fff;
+  padding: 7px 22px;
+}
+
+
+
+
+.phone {
+    color: #000;
+    margin-left:  auto;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.fa-phone {
+    font-size: 15px;
+}
+
+.bg__content {
+    background: url('/images/header__bg.jpg');
+    
+}
+
+
+.promo {
+    padding-top: 89px;
+    padding-bottom: 134px;
+}
+
+.promo__inner {
+    display: flex;
+    justify-content: space-around;
+} 
+
+.promo__block {
+    margin-top: 50px;
+    max-width: 535px;
+    text-align: center;
+}
+
+.promo__text {
+    font-size: 16px;
+    font-weight: 300; 
+    margin-bottom: 33px;
+}
+
+.promo__title {
+    width: 527px;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #1b3bde;
+    margin-bottom: 31px;
+}
+
+.promo__data {
+    margin: 0 auto;
+    width: 148px;
+    border-radius: 3px;
+    background-color: #000000;
+    padding: 6px 6px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.order {
+    padding: 38px 0;
+    display: block;
+    flex-direction: column;
+    width: 333px;
+    border-radius: 5px;
+    box-shadow: 0px 13px 98px 0 rgba(0, 0, 0, 0.24);
+    background-color: #ffffff;
+    text-align: center;
+    align-items:center;
+}
+
+.order__title {
+    
+    font-weight: 900;
+    font-size: 17px;
+    margin-bottom: 19px;
+}
+
+.order__text {
+    display: block;;
+    margin: 0 auto;
+    width: 268px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.order__contanct {
+    border: none;
+    
+    
+    
+}
+
+.input {
+    margin-top: 15px;
+    width: 269px;
+    border-bottom: 2px solid #000;
+    padding: 13px 0;
+    box-shadow: none;
+}
+
+.contact__btn  {
+    margin-top: 25px;
+    width: 269px;
+    height: 59px;
+    border-radius: 5px;
+    background-color: #4acc4d;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.31;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.know {
+    padding: 122px 0;
+}
+
+.block__card {
+    
+width: 469px;
+height: 265px;
+border-radius: 5px;
+box-shadow: 0px 13px 98px 0 rgba(0, 0, 0, 0.24);
+background-color: #9d6bdc;
+padding-top: 45px;
+padding-left: 57px;
+}
+
+.title__card {
+ margin-bottom: 19px;
+ height: 13px;
+ opacity: 0.84;
+font-size: 18px;
+font-weight: 900;
+line-height: 1.78;
+color: rgba(255, 255, 255, 0.84);
+      
+}
+
+.card__text {
+    width: 229px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #ffffff;
+    margin-bottom: 31px;
+}
+
+.card__items {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.card__text-site {
+        display: flex;
+        font-size: 13px;
+        line-height: 1.15;
+        color: #ffffff;
+    
+    
+}
+.number {
+    font-size: 39px;
+    font-weight: bold;
+    line-height: 0.85;
+    letter-spacing: 0.78px;
+    
+}
+
+
+
+
+   
